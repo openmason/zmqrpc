@@ -1,0 +1,21 @@
+{
+  "name": "zmqrpc",
+  "description": "zeromq json rpc 2.0 server",
+  "homepage": "https://github.com/openmason/zmqrpc",
+  "version": "0.0.1",
+  "author": "el aras <openmason@gmail.com>",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha"     : ">= 1.7.4",
+    "should"    : ">= 1.2.1"
+  },
+  "keywords": ["json", "rpc", "server", "zeromq", "zmq"],
+  "repository": {"type":"git", "url": "git://github.com/openmason/zmqrpc"},
+  "main": "index",
+  "scripts": { 
+    "prepublish" : "npm prune",
+    "test" : "make test" 
+  },
+  "engines": { "node":">= 0.8.0" }
+}
