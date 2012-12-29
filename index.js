@@ -9,6 +9,6 @@
 // - http://en.wikipedia.org/wiki/JSON-RPC
 
 exports.Server = require('./lib/server');
-//exports.Client = require('./lib/client');
+exports.Client = require('./lib/client');
 
 // -- EOF

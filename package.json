@@ -2,11 +2,13 @@
   "name": "zmqrpc",
   "description": "zeromq json rpc 2.0 server",
   "homepage": "https://github.com/openmason/zmqrpc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "el aras <openmason@gmail.com>",
   "dependencies": {
     "jsonrpclib": ">= 0.1.2",
-    "zmq"       : ">= 2.2.0"
+    "handy"     : ">= 0.0.11",
+    "zmq"       : ">= 2.2.0",
+    "node-proxy": ">= 0.6.0"
   },
   "devDependencies": {
     "mocha"     : ">= 1.7.4",
